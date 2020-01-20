@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-meshwizard
+name: OpenWrt-CI-精简主题插件-luci-app-minidlna
 
 on:
   push:
@@ -212,6 +212,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-kodexplorer=y
           CONFIG_PACKAGE_luci-app-lxc=y
           CONFIG_PACKAGE_luci-app-meshwizard=y
+          CONFIG_PACKAGE_luci-app-minidlna=y
           EOF
 
           # LuCI主题:
