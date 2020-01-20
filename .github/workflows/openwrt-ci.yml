@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-hnet
+name: OpenWrt-CI-精简主题插件-luci-app-kodexplorer
 
 on:
   push:
@@ -209,6 +209,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-haproxy-tcp=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
           CONFIG_PACKAGE_luci-app-hnet=y
+          CONFIG_PACKAGE_luci-app-kodexplorer=y
           EOF
 
           # LuCI主题:
