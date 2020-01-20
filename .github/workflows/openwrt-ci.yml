@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-hd-idle
+name: OpenWrt-CI-精简主题插件-luci-app-hnet
 
 on:
   push:
@@ -208,6 +208,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-guest-wifi=y
           CONFIG_PACKAGE_luci-app-haproxy-tcp=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
+          CONFIG_PACKAGE_luci-app-hnet=y
           EOF
 
           # LuCI主题:
