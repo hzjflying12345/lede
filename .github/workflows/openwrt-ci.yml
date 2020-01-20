@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-freifunk-widgets
+name: OpenWrt-CI-精简主题插件-luci-app-firewall
 
 on:
   push:
@@ -200,10 +200,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-familycloud=y
           CONFIG_PACKAGE_luci-app-filetransfer=y
           CONFIG_PACKAGE_luci-app-firewall=y
-          CONFIG_PACKAGE_luci-app-flowoffload=y
-          CONFIG_PACKAGE_luci-app-freifunk-diagnostics=y
-          CONFIG_PACKAGE_luci-app-freifunk-policyrouting=y
-          CONFIG_PACKAGE_luci-app-freifunk-widgets=y
           EOF
 
           # LuCI主题:
