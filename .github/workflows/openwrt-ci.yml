@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-minidlna
+name: OpenWrt-CI-精简主题插件-luci-app-mjpg-streamer
 
 on:
   push:
@@ -213,6 +213,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-lxc=y
           CONFIG_PACKAGE_luci-app-meshwizard=y
           CONFIG_PACKAGE_luci-app-minidlna=y
+          CONFIG_PACKAGE_luci-app-mjpg-streamer=y
           EOF
 
           # LuCI主题:
