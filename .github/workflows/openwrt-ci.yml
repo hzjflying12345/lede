@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-guest-wifi
+name: OpenWrt-CI-精简主题插件-luci-app-haproxy-tcp
 
 on:
   push:
@@ -206,6 +206,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-freifunk-widgets=y
           CONFIG_PACKAGE_luci-app-fwknopd=y
           CONFIG_PACKAGE_luci-app-guest-wifi=y
+          CONFIG_PACKAGE_luci-app-haproxy-tcp=y
           EOF
 
           # LuCI主题:
