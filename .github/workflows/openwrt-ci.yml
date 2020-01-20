@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-mtwifi
+name: OpenWrt-CI-精简主题插件-luci-app-n2n_v2
 
 on:
   push:
@@ -215,6 +215,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_luci-app-mjpg-streamer=y
           CONFIG_PACKAGE_luci-app-mtwifi=y
+          CONFIG_PACKAGE_luci-app-n2n_v2=y
           EOF
 
           # LuCI主题:
