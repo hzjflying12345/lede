@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-精简主题插件-luci-app-freifunk-widgets
+name: OpenWrt-CI-精简主题插件-luci-app-fwknopd
 
 on:
   push:
@@ -204,6 +204,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-freifunk-diagnostics=y
           CONFIG_PACKAGE_luci-app-freifunk-policyrouting=y
           CONFIG_PACKAGE_luci-app-freifunk-widgets=y
+          CONFIG_PACKAGE_luci-app-fwknopd=y
           EOF
 
           # LuCI主题:
